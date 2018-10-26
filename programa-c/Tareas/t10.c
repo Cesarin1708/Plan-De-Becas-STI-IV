@@ -5,7 +5,7 @@ int main(){
 	int calculadora;
 	float n1,n2,r;
 
-	printf("Ingrse dos numeros: ");
+	printf("Ingrese dos numeros: ");
 	scanf("%f %f",&n1,&n2);
 	printf("1=Suma\n");
 	printf("2=Resta\n");
@@ -15,16 +15,15 @@ int main(){
 	
 	switch(calculadora){
 		case 1:
-			r=n1+n2; break;
+			r=n1+n2; printf("El resultado es: %.2f",r); break;
 		case 2: 	
-			r=n1-n2; break;
+			r=n1-n2; printf("El resultado es: %.2f",r); break;
 		case 3: 
-			r=n1*n2; break;
+			r=n1*n2; printf("El resultado es: %.2f",r); break;
 		case 4:
-			r=n1/n2; break;
-		defautl:
-			printf("Eso no es un numero"); break; 
+			r=n1/n2; printf("El resultado es: %.2f",r); break;
+		default:
+			printf("Elije una de las opciones que se muestran en pantalla"); break; 
 	}
-	printf("El resultado es: %.2f",r);
 
 }

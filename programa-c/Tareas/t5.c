@@ -9,6 +9,6 @@ int main(){
 	printf("Digite un numero flotante: "); scanf("%f",&b);
 	printf("Digite un caracter: "); scanf(" %c",&d);
 
-	printf("El numero entero es %i, el numero flotante es %f, y el caracter es %c",a,b,d);
+	printf("El numero entero es %i, el numero flotante es %.2f, y el caracter es %c",a,b,d);
 
 }
